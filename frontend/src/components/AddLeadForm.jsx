@@ -1,4 +1,3 @@
-// src/components/AddLeadForm.js
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { ADD_LEAD } from '../graphql/queries';

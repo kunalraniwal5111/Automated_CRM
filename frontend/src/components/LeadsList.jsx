@@ -20,12 +20,6 @@ const LeadsList = () => {
   const [updatedLeadId, setUpdatedLeadId] = useState(null);
   const navigate = useNavigate()
 
-  // useEffect(() => {
-  //   if (!loading && selectedLead) {
-  //     refetch();
-  //   }
-  // }, [selectedLead, loading, refetch]);
-
 
 
   const handleStatusChangeClick = (lead) => {

@@ -7,7 +7,7 @@ import Home from './components/Home';
 
 const AppRoutes = () => (
   <Router>
-    <Navigation/>
+    <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/allLead" element={<LeadsList />} />

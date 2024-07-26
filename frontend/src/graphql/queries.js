@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client';
 
-// Query to get all leads
+// Query for getting all leads
 export const GET_LEADS = gql`
   query {
     leads {

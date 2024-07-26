@@ -26,7 +26,7 @@ async function sendEmail(to, subject, text) {
 
 
 
-// GraphQL schema
+// graphQL schema
 const typeDefs = gql`
   type Query {
     leads: [Lead]
