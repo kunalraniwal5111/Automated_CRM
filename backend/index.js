@@ -6,6 +6,14 @@ import { connectDB } from './config/db.js';
 import { Lead } from './model/Lead.js';
 import nodemailer from "nodemailer"
 
+const app = express()
+app.use(cors({
+origin : ["https://automated-crm-lac.vercel.app/"],
+methods:["POST","GET"],
+credentials:true
+});
+app.use(express.json())
+
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
