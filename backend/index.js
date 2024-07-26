@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import { connectDB } from './config/db.js';
 import { Lead } from './model/Lead.js';
 import nodemailer from "nodemailer"
+import cors from 'cors';
 
 const app = express()
 app.use(cors({
